@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #2b0000;
+}
+
+#id{
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.container{
+    padding-top: 77px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2b0000;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.footer p{
+    padding-top: 10px;
+}
+
+.reaction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.reaction form{
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+
+.btn-outline-warning{
+    color: orange;
+}
