@@ -25,19 +25,6 @@ class UserRegistrationForm(forms.ModelForm):
             return confirm_password
 
 
-class UserUpdateForm(forms.ModelForm):
-    username = forms.CharField(widget=forms.TextInput(attrs={'readonly': 'readonly'}))
-    email = forms.CharField(widget=forms.TextInput(attrs={'readonly': 'readonly'}))
-    class Meta:
-        model = User
-        fields = ['username', 'first_name', 'last_name', 'email']
-
-
-class ProfileUpdateForm(forms.ModelForm):
-    class Meta:
-        model = Profile
-        fields = ['DOB','photo']
-
 
 class QuestionAskForm(forms.ModelForm):
     class Meta:
